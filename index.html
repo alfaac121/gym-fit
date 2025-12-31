@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FitZone Gym - Tu gimnasio local con instalaciones premium, entrenadores certificados y clases presenciales para toda la comunidad">
+    <title>FitZone Gym - Transform Your Body, Transform Your Life</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">💪</span>
+                    <span class="logo-text">FitZone</span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link active">Inicio</a></li>
+                    <li><a href="#about" class="nav-link">Nosotros</a></li>
+                    <li><a href="#classes" class="nav-link">Clases</a></li>
+                    <li><a href="#pricing" class="nav-link">Precios</a></li>
+                    <li><a href="#trainers" class="nav-link">Entrenadores</a></li>
+                    <li><a href="#contact" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="btn btn-outline">Iniciar Sesión</button>
+                    <button class="btn btn-primary">Únete Ahora</button>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="hero-image" id="heroImage"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">⚡</span>
+                    <span>Transforma tu vida hoy</span>
+                </div>
+                <h1 class="hero-title">
+                    Alcanza tu <span class="gradient-text">Máximo Potencial</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Bienvenido a tu gimnasio local. Ofrecemos instalaciones de primera clase, entrenadores certificados y un ambiente motivador para alcanzar tus metas fitness. Visítanos y descubre todo lo que tenemos para ti.
+                </p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary btn-large">
+                        <span>Visítanos Hoy</span>
+                        <span class="btn-icon">→</span>
+                    </button>
+                    <button class="btn btn-glass btn-large">
+                        <span class="play-icon">▶</span>
+                        <span>Ver Instalaciones</span>
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="5000">0</div>
+                        <div class="stat-label">Miembros Activos</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Clases Semanales</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Entrenadores Expertos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Por qué elegirnos</span>
+                <h2 class="section-title">Tu gimnasio local de <span class="gradient-text">confianza</span></h2>
+                <p class="section-subtitle">Instalaciones modernas, ambiente familiar y atención personalizada. Todo lo que necesitas para entrenar está aquí, en tu comunidad.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏋️</div>
+                    <h3 class="feature-title">Equipamiento Premium</h3>
+                    <p class="feature-description">Máquinas de última generación y equipos de alta calidad para todos los niveles. Mantenimiento constante para garantizar tu seguridad.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍🏫</div>
+                    <h3 class="feature-title">Entrenadores Certificados</h3>
+                    <p class="feature-description">Profesionales con certificaciones internacionales listos para ayudarte en el gimnasio. Asesoría presencial y seguimiento personalizado.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Rutinas Personalizadas</h3>
+                    <p class="feature-description">Programas de entrenamiento diseñados específicamente para ti por nuestros entrenadores. Ajustamos tu rutina según tus objetivos y progreso.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🕐</div>
+                    <h3 class="feature-title">Horario Extendido</h3>
+                    <p class="feature-description">Abierto de lunes a domingo con horarios amplios para que entrenes cuando mejor te convenga. Adaptamos nuestro horario a tu estilo de vida.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🥗</div>
+                    <h3 class="feature-title">Asesoría Nutricional</h3>
+                    <p class="feature-description">Consultas presenciales con nutricionistas deportivos especializados. Te ayudamos a complementar tu entrenamiento con una alimentación adecuada.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏢</div>
+                    <h3 class="feature-title">Instalaciones Completas</h3>
+                    <p class="feature-description">Vestuarios amplios, duchas, casilleros de seguridad y áreas de descanso. Todo lo necesario para tu comodidad en un solo lugar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section class="classes" id="classes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Nuestras Clases</span>
+                <h2 class="section-title">Clases presenciales <span class="gradient-text">para todos</span></h2>
+                <p class="section-subtitle">Todas nuestras clases son presenciales en nuestras instalaciones. Únete a nuestra comunidad y entrena con nosotros.</p>
+            </div>
+            <div class="classes-grid">
+                <div class="class-card">
+                    <div class="class-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="class-content">
+                        <div class="class-header">
+                            <h3 class="class-title">Yoga & Pilates</h3>
+                            <span class="class-level">Todos los niveles</span>
+                        </div>
+                        <p class="class-description">Clases presenciales en nuestro estudio especializado. Mejora tu flexibilidad, fuerza y equilibrio con instructores certificados.</p>
+                        <div class="class-meta">
+                            <span class="class-duration">⏱️ 60 min</span>
+                            <span class="class-intensity">🔥 Moderado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="class-card">
+                    <div class="class-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="class-content">
+                        <div class="class-header">
+                            <h3 class="class-title">CrossFit</h3>
+                            <span class="class-level">Avanzado</span>
+                        </div>
+                        <p class="class-description">Entrenamiento funcional de alta intensidad en nuestras instalaciones. Grupos reducidos para atención personalizada.</p>
+                        <div class="class-meta">
+                            <span class="class-duration">⏱️ 45 min</span>
+                            <span class="class-intensity">🔥 Intenso</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="class-card">
+                    <div class="class-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="class-content">
+                        <div class="class-header">
+                            <h3 class="class-title">Spinning</h3>
+                            <span class="class-level">Intermedio</span>
+                        </div>
+                        <p class="class-description">Sesiones de ciclismo indoor en nuestra sala especializada. Música motivadora y ambiente energético garantizado.</p>
+                        <div class="class-meta">
+                            <span class="class-duration">⏱️ 50 min</span>
+                            <span class="class-intensity">🔥 Alto</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="class-card">
+                    <div class="class-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+                    <div class="class-content">
+                        <div class="class-header">
+                            <h3 class="class-title">Zumba</h3>
+                            <span class="class-level">Todos los niveles</span>
+                        </div>
+                        <p class="class-description">Baila, quema calorías y diviértete en nuestras clases presenciales. Ambiente festivo y acogedor para todos los niveles.</p>
+                        <div class="class-meta">
+                            <span class="class-duration">⏱️ 55 min</span>
+                            <span class="class-intensity">🔥 Moderado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="class-card">
+                    <div class="class-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                    <div class="class-content">
+                        <div class="class-header">
+                            <h3 class="class-title">Boxing</h3>
+                            <span class="class-level">Intermedio</span>
+                        </div>
+                        <p class="class-description">Aprende técnicas de boxeo con instructores profesionales. Clases presenciales con equipo de protección incluido.</p>
+                        <div class="class-meta">
+                            <span class="class-duration">⏱️ 60 min</span>
+                            <span class="class-intensity">🔥 Intenso</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="class-card">
+                    <div class="class-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);"></div>
+                    <div class="class-content">
+                        <div class="class-header">
+                            <h3 class="class-title">Funcional</h3>
+                            <span class="class-level">Todos los niveles</span>
+                        </div>
+                        <p class="class-description">Entrenamiento funcional adaptado a tus necesidades. Sesiones presenciales con ejercicios variados y efectivos.</p>
+                        <div class="class-meta">
+                            <span class="class-duration">⏱️ 45 min</span>
+                            <span class="class-intensity">🔥 Alto</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Membresías</span>
+                <h2 class="section-title">Membresías <span class="gradient-text">para tu gimnasio local</span></h2>
+                <p class="section-subtitle">Acceso completo a nuestras instalaciones físicas. Todas las membresías incluyen uso del gimnasio y clases presenciales.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Básico</h3>
+                        <p class="pricing-description">Acceso al gimnasio y servicios básicos</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">$</span>
+                        <span class="price-amount">29</span>
+                        <span class="price-period">/mes</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="feature-item">✓ Acceso al gimnasio</li>
+                        <li class="feature-item">✓ Vestuarios y duchas</li>
+                        <li class="feature-item">✓ 2 clases grupales/semana</li>
+                        <li class="feature-item disabled">✗ Entrenador personal</li>
+                        <li class="feature-item disabled">✗ Plan nutricional</li>
+                        <li class="feature-item disabled">✗ Acceso a spa</li>
+                    </ul>
+                    <button class="btn btn-outline btn-full">Seleccionar Plan</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Más Popular</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Premium</h3>
+                        <p class="pricing-description">Acceso completo y clases ilimitadas</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">$</span>
+                        <span class="price-amount">59</span>
+                        <span class="price-period">/mes</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="feature-item">✓ Todo lo del plan Básico</li>
+                        <li class="feature-item">✓ Clases grupales ilimitadas</li>
+                        <li class="feature-item">✓ 4 sesiones con entrenador</li>
+                        <li class="feature-item">✓ Plan nutricional básico</li>
+                        <li class="feature-item">✓ Acceso prioritario a clases</li>
+                        <li class="feature-item disabled">✗ Acceso a spa</li>
+                    </ul>
+                    <button class="btn btn-primary btn-full">Seleccionar Plan</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Elite</h3>
+                        <p class="pricing-description">Experiencia premium completa</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-currency">$</span>
+                        <span class="price-amount">99</span>
+                        <span class="price-period">/mes</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="feature-item">✓ Todo lo del plan Premium</li>
+                        <li class="feature-item">✓ Entrenador personal ilimitado</li>
+                        <li class="feature-item">✓ Plan nutricional completo</li>
+                        <li class="feature-item">✓ Acceso a spa y sauna</li>
+                        <li class="feature-item">✓ Toallas y amenidades</li>
+                        <li class="feature-item">✓ Invitado gratis/mes</li>
+                    </ul>
+                    <button class="btn btn-outline btn-full">Seleccionar Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section class="trainers" id="trainers">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Nuestro Equipo</span>
+                <h2 class="section-title">Conoce a nuestros <span class="gradient-text">entrenadores locales</span></h2>
+                <p class="section-subtitle">Profesionales certificados y apasionados, listos para ayudarte a alcanzar tus metas en nuestras instalaciones.</p>
+            </div>
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <div class="trainer-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="trainer-content">
+                        <h3 class="trainer-name">Carlos Rodríguez</h3>
+                        <p class="trainer-specialty">Especialista en CrossFit</p>
+                        <p class="trainer-bio">Más de 8 años de experiencia entrenando atletas. Especializado en técnicas de alta intensidad y desarrollo muscular.</p>
+                        <div class="trainer-social">
+                            <a href="#" class="social-link">📘</a>
+                            <a href="#" class="social-link">📷</a>
+                            <a href="#" class="social-link">🐦</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="trainer-content">
+                        <h3 class="trainer-name">María González</h3>
+                        <p class="trainer-specialty">Instructora de Yoga</p>
+                        <p class="trainer-bio">Instructora certificada con 10 años de experiencia. Enfocada en bienestar integral, flexibilidad y mindfulness.</p>
+                        <div class="trainer-social">
+                            <a href="#" class="social-link">📘</a>
+                            <a href="#" class="social-link">📷</a>
+                            <a href="#" class="social-link">🐦</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="trainer-content">
+                        <h3 class="trainer-name">Juan Pérez</h3>
+                        <p class="trainer-specialty">Entrenador Personal</p>
+                        <p class="trainer-bio">Entrenador personal certificado. Especializado en transformaciones físicas y programas personalizados de fuerza.</p>
+                        <div class="trainer-social">
+                            <a href="#" class="social-link">📘</a>
+                            <a href="#" class="social-link">📷</a>
+                            <a href="#" class="social-link">🐦</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+                    <div class="trainer-content">
+                        <h3 class="trainer-name">Ana Martínez</h3>
+                        <p class="trainer-specialty">Nutricionista Deportiva</p>
+                        <p class="trainer-bio">Nutricionista deportiva con enfoque en rendimiento atlético. Consultas presenciales personalizadas disponibles.</p>
+                        <div class="trainer-social">
+                            <a href="#" class="social-link">📘</a>
+                            <a href="#" class="social-link">📷</a>
+                            <a href="#" class="social-link">🐦</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Testimonios</span>
+                <h2 class="section-title">Lo que dice nuestra <span class="gradient-text">comunidad local</span></h2>
+                <p class="section-subtitle">Historias reales de personas de nuestra comunidad que entrenan con nosotros cada día.</p>
+            </div>
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"El mejor gimnasio de la zona. Las instalaciones son excelentes y los entrenadores siempre están dispuestos a ayudar. Me encanta el ambiente familiar y motivador que se respira aquí."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                        <div class="author-info">
+                            <h4 class="author-name">Roberto Silva</h4>
+                            <p class="author-role">Miembro desde 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Llevo un año entrenando aquí y los resultados son increíbles. Las clases presenciales son muy dinámicas y el equipo está siempre en perfectas condiciones. Totalmente recomendado."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                        <div class="author-info">
+                            <h4 class="author-name">Laura Fernández</h4>
+                            <p class="author-role">Miembro desde 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Encontré el gimnasio perfecto cerca de casa. Los horarios son súper flexibles y siempre hay espacio para entrenar. El personal es muy profesional y atento."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                        <div class="author-info">
+                            <h4 class="author-name">Diego Ramírez</h4>
+                            <p class="author-role">Miembro desde 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn" id="prevBtn">←</button>
+                <div class="slider-dots" id="sliderDots"></div>
+                <button class="slider-btn" id="nextBtn">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Galería</span>
+                <h2 class="section-title">Conoce nuestras <span class="gradient-text">instalaciones</span></h2>
+                <p class="section-subtitle">Espacios amplios, modernos y equipados con todo lo necesario para tu entrenamiento. Ven a visitarnos.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Área de Pesas</span>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Sala de Spinning</span>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Zona CrossFit</span>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Estudio de Yoga</span>
+                    </div>
+                </div>
+                <div class="gallery-item large" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Piscina</span>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Spa & Sauna</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-badge">Contáctanos</span>
+                    <h2 class="section-title">Visita nuestro <span class="gradient-text">gimnasio hoy</span></h2>
+                    <p class="contact-description">Estamos ubicados en tu comunidad. Ven a conocer nuestras instalaciones, habla con nuestro equipo y descubre cómo podemos ayudarte.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                <h4>Dirección</h4>
+                                <p>Av. Principal 123, Ciudad, País</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-text">
+                                <h4>Teléfono</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>info@fitzone.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+                            <div class="contact-text">
+                                <h4>Horario</h4>
+                                <p>Lun - Vie: 6:00 - 22:00<br>Sáb - Dom: 8:00 - 20:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Enviar Mensaje</span>
+                            <span class="btn-icon">→</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <span class="logo-icon">💪</span>
+                        <span class="logo-text">FitZone</span>
+                    </div>
+                    <p class="footer-description">Tu gimnasio local de confianza. Instalaciones modernas, entrenadores certificados y una comunidad apasionada por el fitness.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">▶️</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">Nosotros</a></li>
+                        <li><a href="#classes">Clases</a></li>
+                        <li><a href="#pricing">Precios</a></li>
+                        <li><a href="#trainers">Entrenadores</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Servicios</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Entrenamiento Personal</a></li>
+                        <li><a href="#">Clases Grupales</a></li>
+                        <li><a href="#">Nutrición</a></li>
+                        <li><a href="#">Spa & Wellness</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p class="footer-newsletter-text">Suscríbete para recibir ofertas exclusivas</p>
+                    <form class="footer-newsletter">
+                        <input type="email" placeholder="Tu email" required>
+                        <button type="submit" class="btn btn-primary">→</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FitZone Gym. Todos los derechos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacidad</a>
+                    <a href="#">Términos</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
